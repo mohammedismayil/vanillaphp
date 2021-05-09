@@ -10,7 +10,7 @@
     //including the database connection file
     include_once("config.php");
     //actually from the admin panel -
-$another_result = mysqli_query($mysqli, "SELECT * FROM adminusers ORDER BY name"); // using mysqli_query instead
+$another_result = mysqli_query($mysqli, "SELECT * FROM adminusers WHERE  name"); // using mysqli_query instead
 
     ?>
 
